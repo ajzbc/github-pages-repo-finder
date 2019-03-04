@@ -1,0 +1,133 @@
+html {
+    box-sizing: border-box;
+    /* overflow-y: scroll; */
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    background: #fff;
+    color: #111;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 18px;
+    line-height: 1;
+    margin: 0px;
+}
+
+main {
+    max-width: 500px;
+    margin: 30px auto;
+}
+
+.top h2 {
+    margin: 20px;
+}
+
+.top p {
+    margin: 20px;
+}
+
+.top a {
+    color: #111;
+}
+
+.inputForm {
+    position: relative;
+    line-height: 40px;
+    margin: 20px;
+}
+
+.inputForm input,
+.inputForm button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border: 0;
+    padding: 0;
+    background: transparent;
+    line-height: inherit;
+    font: inherit;
+}
+
+.inputForm input {
+    background-color: #e4e4e4;
+    border-radius: 6px;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 75px;
+    outline: none;
+}
+
+.inputForm button {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    line-height: 40px;
+    background: #2a6fe6;
+    color: #fff;
+    border-radius: 4px;
+    padding: 0 15px;
+    outline: none;
+    cursor: pointer;
+}
+
+.container {
+    background-color: #e4e4e4;
+    border-radius: 6px;
+    margin: 20px;
+    padding: 10px;
+    color: #333;
+}
+
+#logs p {
+    font-size: 12px;
+    margin: 0px;
+}
+
+.title {
+    font-weight: 600;
+}
+
+.end {
+    color: rgb(210, 61, 71);
+}
+
+#result .sub {
+    color: #333;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+#result .extra {
+    color: #333;
+    margin-top: 8px;
+    margin-bottom: 0px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+#result .user {
+    color: #333;
+    margin-top: 8px;
+    margin-bottom: 5px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+#result .reason {
+    margin: 0px;
+    margin-bottom: 10px;
+    word-wrap: break-word;
+    font-weight: 600;
+}
+
+#result a {
+    color: #2a6fe6;
+    word-wrap: break-word;
+}
